@@ -7,8 +7,8 @@
     <title>Document</title>
     <link href="build/styles.css" rel="stylesheet">
     <style>
-        .sale-up {
-            background-image: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/bench-accounting-scaled.jpg')
+        .cc {
+            background-image: url('images/792513.jpg')
         }
     </style>
 </head>
@@ -29,9 +29,9 @@
                 </div>
                 <div id="main_Menu" class="flex pt-3 overflow-x-auto hidden md:block">
                     <ul class="flex mg-auto">
-                        <li><a class="ml-4" href="#">Home</a></li>
-                        <li><a class="ml-4" href="#">Shop</a></li>
-                        <li><a class="ml-4" href="#">Pages</a></li>
+                        <li><a class="ml-4" href="index.html">Home</a></li>
+                        <li><a class="ml-4" href="shop.html">Shop</a></li>
+                        <li><a class="ml-4" href="pages.html">Pages</a></li>
                         <li><a class="ml-4" href="#">Elements</a></li>
                         <li><a class="ml-4" href="#">Blog</a></li>
                         <li><a class="ml-4" href="#">Contact</a></li>
@@ -44,9 +44,9 @@
             </div>
         </header>
         <br>
-        <section>
-            <div class="container w-full h-64">
-                <div>
+        <section class="py-8 w-full">
+            <div class="cc container pt-16 h-64">
+                <div class="">
                     <h2 class="text-center font-bold text-3xl pt-12">
                         Shop
                     </h2>
@@ -58,31 +58,191 @@
                 </div>
             </div>
         </section>
+        <br>
         <section>
-            <div class="grid grid-cols-12">
-                <div class="cols-span-9 flex">
-                    <div class="container w-full flex">
-                        <div class="">
-                            <h2>Showing 1–9 of 65 results</h2>
-                        </div>
-                        <div class="flex">
-                            <select name="" id="" class="xl:block hidden px-5 mr-5 border-l border-gray-300">
-                                <option value="">Sort by lates</option>
-                            </select>
-                        </div>
-                        <div class="flex">
-                            <ul>
-                                <li><a href="#">
+            <div class="container justify-between w-full mx-8">
+                <div class="grid grid-cols-12">
+                    <div class="cols-span-9 flex  justify-between">
 
-                                    </a></li>
-                                <li><a href="#">
+                    </div>
+                    <div class="cols-span-3">
 
-                                    </a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
-                <div class="cols-span-3">
+            </div>
+            <div class="container mx-auto">
+                <div class="grid xl:grid-cols-12 gap-8">
+                    <div class="xl:col-span-9">
+                        <div class=" flex justify-between">
+                            <div class="w-64">
+                                <h2>Showing 1–9 of 65 results</h2>
+                            </div>
+                            <div class="flex border-gray-800 ">
+                                <select name="" id="" class="xl:block hidden px-5 mr-5 border-l ">
+                                    <option value="">Sort by popularity</option>
+                                    <option value="">Sort by average</option>
+                                    <option value="">Sort by lates</option>
+                                    <option value="">Sort by price: low to hight</option>
+                                    <option value="">Sort by price: hight to low</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid xl:grid-cols-3 gap-4">
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p1.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p2.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p3.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p4.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p5.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+                            <div class="relative border-solid">
+                                <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-86%</div>
+                                <a href="#">
+                                    <img src="images/p6.png" alt="">
+                                    <p>Teddy Bag</p>
+                                    <p class="font-bold">$42.00</p>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="text-center py-12">
+                            <button class="bg-black text-white rounded-md w-24 h-10">
+                                Load More
+                            </button>
+                        </div>
+                    </div>
+                    <aside class="col-span-3 ml-3 ">
+                        <div>
+                            <form class="" action="">
+                                <input class="w-full h-10 border-black" type="text" name="" placeholder="    Search"
+                                    id="">
+                            </form>
+                            <ul class="pt-8">
+                                <li class="mb-4"><a href="#">Accessories (8)</a></li>
+                                <li class="mb-4"><a href="#">Computer (1)</a></li>
+                                <li class="mb-4"><a href="#">Covid-19 (2)</a></li>
+                                <li class="mb-4"><a href="#">Electornics (8)</a></li>
+                                <li class="mb-4"><a href="#">Frame Sunglasses (10)</a></li>
+                                <li class="mb-4"><a href="#">Furniture (7)</a></li>
+                                <li class="mb-4"><a href="#">Genuine Leather (8)</a></li>
+                                <li class="mb-4"><a href="#">Gift Corners (2)</a></li>
+                                <li class="mb-4"><a href="#">Jewellery (1)</a></li>
+                                <li class="mb-4"><a href="#">Kid’s Wear (1)</a></li>
+                                <li class="mb-4"><a href="#">Medical (6)</a></li>
+                                <li class="mb-4"><a href="#">Medical Accessories (7)</a></li>
+                                <li class="mb-4"><a href="#">Men (2)</a></li>
+                                <li class="mb-4"><a href="#">Modern Furniture (6)</a></li>
+                                <li class="mb-4"><a href="#">Other Medical (6)</a></li>
+                                <li class="mb-4"><a href="#">Shoes (1)</a></li>
+                                <li class="mb-4"><a href="#">Sports (3)</a></li>
+                                <li class="mb-4"><a href="#">Toys (2)</a></li>
+                                <li class="mb-4"><a href="#">Women (2)</a></li>
+                            </ul>
+                            <div class="pt-5">
+                                <span class="font-bold text-2xl ">Price Filter</span>
+                                <input class="w-full" type="range" min="0" max="690">
+                                <div class="flex">
+                                    <p class="">Price: </p>
+                                    <div> $0 -</div>
+                                    <div> $690</div>
+                                    <button class="bg-black w-12 h-8 text-white rounded-md ml-32">Filter</button>
+                                </div>
+                            </div>
+                            <div class="pt-5">
+                                <h2 class="font-bold">Color</h2>
+                                <div class="flex">
+                                    <div class="bg-black rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                    <div class="bg-blue-500 rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                    <div class="bg-yellow-800 rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                    <div class="bg-orange-600 rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                    <div class="bg-red-600 rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                    <div class="bg-orange-500 rounded-full h-4 w-5 mx-4 mt-4"></div>
+                                </div>
+                            </div>
+                            <div class="pt-5">
+                                <h2 class="font-bold text-2xl">Size</h2>
+                                <div class="flex pt-8">
+                                    <div>L
+                                    </div>
+                                    <div class="ml-8">M</div>
+                                    <div class="ml-8">S</div>
+                                </div>
+                            </div>
+                            <div class="pt-5">
+                                <h2 class="font-bold text-2xl">Top Item</h2>
+                                <div>
+                                    <a href="#">
+                                        <img src="images/p1.png" alt="">
+                                        <h2></h2>
+                                        <p></p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img class="" src="images/p2.png" alt="">
+                                        <h2></h2>
+                                        <p></p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="images/p3.png" alt="">
+                                        <h2></h2>
+                                        <p></p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="images/p4.png" alt="">
+                                        <h2></h2>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+
+                        </div>
+                    </aside>
 
                 </div>
             </div>
@@ -91,7 +251,7 @@
             <div class="bg-black h-64">
                 <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 justify-between mx-auto">
                     <div class="ml-48 mt-8">
-                        <img class="w-1/2" src="images/logo2.png" alt="">
+                        <img class="w-1/3" src="images/logo2.png" alt="">
                         <p class="text-white mt-10">
                             59 Street, Newyork City, Rose Town, 05 Rive House
                         </p>
@@ -137,20 +297,20 @@
                         <a class="text-white mt-5" href="#">Privacy & Cookie Policy</a>
                     </div>
                     <!-- <div class="grid grid-cols-3 gap-8 mx-auto bg-black h-24">
-                    <div class="ml-48 mt-8 text-white">
-                        © Copyright Metro 2020. Designed and Developed by RadiusTheme
-                    </div>
-                    <div class="copyright-area">
-                        <ul class="footer-social">
-                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                </div> -->
+                        <div class="ml-48 mt-8 text-white">
+                            © Copyright Metro 2020. Designed and Developed by RadiusTheme
+                        </div>
+                        <div class="copyright-area">
+                            <ul class="footer-social">
+                                <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> -->
                 </div>
 
 
