@@ -141,97 +141,257 @@
         </div>
         <div class="py-6 text-center">
             <a class="ml-3" href="#">All</a>
-            <a class="ml-3" href="#">Popular</a>
-            <a class="ml-3" href="#">Sale</a>
-            <a class="ml-3" href="#">Best Rated</a>
+            <a class="ml-3 text-gray-600" href="#">Popular</a>
+            <a class="ml-3 text-gray-600" href="#">Sale</a>
+            <a class="ml-3 text-gray-600" href="#">Best Rated</a>
         </div>
-        <div
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 xl:ml-64 xl:mr-64 px-8 xl:px-0  block">
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-4%</div>
-                    <a href="#" class="">
-                        <img src="images/1.jpg" alt="">
-                    </a>
-                    <p>Game Controller</p>
-                    <span class="line-through left-0 ml-0">$390.00</span>
-                    <span class="font-bold">$375.00</span>
-                    <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
+        <div class="container mx-auto py-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-8 xl:px-0  block">
+                <div class="group relative">
+                    <div class="">
+                        <div class="absolute bottom-10 left-0 mb-64 bg-black rounded text-white w-10">-4%</div>
+                        <a href="#" class="">
+                            <img src="images/1.jpg" alt="">
+                        </a>
+                        <p>Game Controller</p>
+                        <span class="line-through left-0 ml-0">$390.00</span>
+                        <span class="font-bold">$375.00</span>
+                        <div class="flex">
+                            <button
+                                class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                    class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                        clip-rule="evenodd" />
+                                </svg></button>
+                            <button
+                                class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                TO CARD</button>
+                            <button
+                                class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                    class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                        clip-rule="evenodd" />
+                                </svg></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
+                <div class="group relative overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img src="images/2.jpg" alt="">
+                            <p>Teddy Bag</p>
+                            <p class="font-bold">$42.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img class="transition-none" src="images/3.jpg" alt="">
+                            <p>Mens Tshirt</p>
+                            <p class="font-bold">$27.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden">
                     <a href="#">
-                        <img src="images/2.jpg" alt="">
-                        <p>Teddy Bag</p>
-                        <p class="font-bold">$42.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
+                        <img src="images/4.jpg" alt="">
+                        <p>Necklace</p>
+                        <p class="font-bold">$384.00</p>
+                        <div class="flex">
+                            <button
+                                class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                    class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                        clip-rule="evenodd" />
+                                </svg></button>
+                            <button
+                                class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                TO CARD</button>
+                            <button
+                                class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                    class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                        clip-rule="evenodd" />
+                                </svg></button>
+                        </div>
                     </a>
+
                 </div>
-            </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <a href="#">
-                        <img src="images/3.jpg" alt="">
-                        <p>Mens Tshirt</p>
-                        <p class="font-bold">$27.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                    </a>
+                <div class="relative group overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img src="images/5.jpg" alt="">
+                            <p>Gadgets Collection</p>
+                            <p class="font-bold">$35.00 – $375.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div
-                class="relative border-solid transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                <a href="#">
-                    <img src="images/4.jpg" alt="">
-                    <p>Necklace</p>
-                    <p class="font-bold">$384.00</p>
-                    <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                </a>
+                <div class="relative group overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img src="images/6.jpg" alt="">
+                            <p>Regular Jacket</p>
+                            <p class="font-bold">$510.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img src="images/7.jpg" alt="">
+                            <p>Headphone</p>
+                            <p class="font-bold">$35.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden">
+                    <div class="">
+                        <a href="#">
+                            <img src="images/8.jpg" alt="">
+                            <p>Ultra Lense</p>
+                            <p class="font-bold">$630.00</p>
+                            <div class="flex">
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                                <button
+                                    class="block w-full px-3 mx-1 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1">ADD
+                                    TO CARD</button>
+                                <button
+                                    class="block w-10 p-3 bg-black text-white rounded-lg transition duration-500 ease-in-out transform translate-y-24 group-hover:-translate-y-1"><svg
+                                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd" />
+                                    </svg></button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
             </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <a href="#">
-                        <img src="images/5.jpg" alt="">
-                        <p>Gadgets Collection</p>
-                        <p class="font-bold">$35.00 – $375.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                    </a>
-                </div>
-            </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <a href="#">
-                        <img src="images/6.jpg" alt="">
-                        <p>Regular Jacket</p>
-                        <p class="font-bold">$510.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                    </a>
-                </div>
-            </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <a href="#">
-                        <img src="images/7.jpg" alt="">
-                        <p>Headphone</p>
-                        <p class="font-bold">$35.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                    </a>
-                </div>
-            </div>
-            <div class="relative border-solid">
-                <div class=" transition duration-300 ease-in-out transform translate-y-0 hover:-translate-y-24">
-                    <a href="#">
-                        <img src="images/8.jpg" alt="">
-                        <p>Ultra Lense</p>
-                        <p class="font-bold">$630.00</p>
-                        <button class="block w-full p-3 bg-black text-white rounded-lg">ADD TO CARD</button>
-                    </a>
-                </div>
-            </div>
-
         </div>
-        <div class="text-center mt-8">
+        <div class="text-center mt-8 w-full bg-white">
             <a class="font-bold border-b border-black" href="#">VIEW ALL PRODUCTS</a>
         </div>
     </section>
@@ -374,9 +534,10 @@
                 </div>
 
             </div>
-            <div class="w-full h-px bg-white my-8"></div>
+            <div class="w-full h-px bg-white my-4"></div>
             <div class="text-center text-white pb-4">© Copyright Metro 2020. Designed and Developed by RadiusTheme
             </div>
+
         </div>
     </footer>
     <script>
